@@ -1,0 +1,32 @@
+<document>
+<title>Medical Expenses</title>
+<general>
+    <FirstName>Gica</FirstName>
+    <LastName>Ion</LastName>
+    <DateOfBirth>12.12.1994</DateOfBirth>
+    <pin>1254125531</pin>
+    <pin_inst>ABDSSDC 12341255</pin_inst>
+</general>   
+    <expenses>
+        <january>
+            <EKG>
+                <price>700</price>
+            </EKG>
+            <dentist>
+                <price>500</price>
+            </dentist>
+        </january>
+        <february></february>
+        <march></march>
+        <april></april>
+        <may></may>
+        <june></june>
+        <july></july>
+        <august></august>
+        <september></september>
+        <octomber></octomber>
+        <november></november>
+        <december></december>
+        <total>1200</total>
+    </expenses>
+</document>
