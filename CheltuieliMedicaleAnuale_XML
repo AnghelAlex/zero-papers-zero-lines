@@ -3,30 +3,31 @@
 <general>
     <FirstName>Gica</FirstName>
     <LastName>Ion</LastName>
-    <DateOfBirth>12.12.1994</DateOfBirth>
+    <DateOfBirth>1994/07/12;</DateOfBirth>
     <pin>1254125531</pin>
     <pin_inst>ABDSSDC 12341255</pin_inst>
-</general>   
-    <expenses>
-        <january>
-            <EKG>
-                <price>700</price>
-            </EKG>
-            <dentist>
-                <price>500</price>
-            </dentist>
-        </january>
-        <february></february>
-        <march></march>
-        <april></april>
-        <may></may>
-        <june></june>
-        <july></july>
-        <august></august>
-        <september></september>
-        <octomber></octomber>
-        <november></november>
-        <december></december>
-        <total>1200</total>
-    </expenses>
+</general>
+    
+<medical name ="EKG">
+    <date>2009/07/12</date>
+    <time>17:35</time>
+    <fiscal_id>124xas1991</fiscal_id>
+    <price>100</price>
+</medical> 
+    
+<medical name ="Dentist">
+        <date>2009/07/12</date>
+        <time>17:35</time>
+        <fiscal_id>124xas1991</fiscal_id>
+        <price>130</price>
+</medical>
+    
+<medical name ="Colonoscopy">
+        <date>2009/07/12</date>
+        <time>17:35</time>
+        <fiscal_id>124xas1991</fiscal_id>
+        <price>200</price>
+</medical>      
+    
+<Total_expenses>430</Total_expenses>   
 </document>
