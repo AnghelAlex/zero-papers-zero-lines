@@ -1,34 +1,36 @@
 {
-	"document": {
-		"title": "Medical Expenses",
-		"general": {
-			"FirstName": "Gica",
-			"LastName": "Ion",
-			"DateOfBirth": "12.12.1994",
-			"pin": "1254125531",
-			"pin_inst": "ABDSSDC 12341255"
-		},
-		"expenses": {
-			"january": {
-				"EKG": {
-					"price": "700"
-				},
-				"dentist": {
-					"price": "500"
-				}
-			},
-			"february": "",
-			"march": "",
-			"april": "",
-			"may": "",
-			"june": "",
-			"july": "",
-			"august": "",
-			"september": "",
-			"octomber": "",
-			"november": "",
-			"december": "",
-			"total": "1200"
-		}
-	}
+  "document": {
+    "title": "Medical Expenses",
+    "general": {
+      "FirstName": "Gica",
+      "LastName": "Ion",
+      "DateOfBirth": "1994/07/12;",
+      "pin": "1254125531",
+      "pin_inst": "ABDSSDC 12341255"
+    },
+    "medical": [
+      {
+        "-name": "EKG",
+        "date": "2009/07/12",
+        "time": "17:35",
+        "fiscal_id": "124xas1991",
+        "price": "100"
+      },
+      {
+        "-name": "Dentist",
+        "date": "2009/07/12",
+        "time": "17:35",
+        "fiscal_id": "124xas1991",
+        "price": "130"
+      },
+      {
+        "-name": "Colonoscopy",
+        "date": "2009/07/12",
+        "time": "17:35",
+        "fiscal_id": "124xas1991",
+        "price": "200"
+      }
+    ],
+    "Total_expenses": "430"
+  }
 }
